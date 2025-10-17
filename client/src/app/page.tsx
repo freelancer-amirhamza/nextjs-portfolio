@@ -1,10 +1,40 @@
-import Image from "next/image";
 
-export default function Home() {
+import About from '@/components/About'
+import StarsCanvas from '@/components/canvas/StarsCanvas'
+import Contact from '@/components/Contact'
+import Experience from '@/components/Experience'
+import Hero from '@/components/Hero'
+import Projects from '@/components/Projects'
+
+import Testimonials from '@/components/Testimonials'
+
+const App = () => {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-
-<h2 className="text-5xl text-teal-600 font-bold">Welcome to Amir Hamza's Portfolio</h2>
+    <div className="relative mt-20 z-0 w-full min-h-screen bg-primary">
+      <div className="relative bg-cover bg-no-repeat bg-center">
+        <Hero/>
+        <StarsCanvas/>
+      </div>
+      <About/>
+      <Experience/>
+      {/* <Tech/> */}
+      <Projects/>
+      <Testimonials/>
+      <div className="relative z-2">
+        <Contact/>
+        <StarsCanvas/>
+      </div>
+      <div className="hidden sm:block">
+        <StarsCanvas  />
+      </div>
     </div>
-  );
+
+  )
 }
+
+export default App
+
+// some addition needs
+// About page
+// contact page
+// project page
