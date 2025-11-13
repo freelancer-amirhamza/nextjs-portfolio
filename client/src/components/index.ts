@@ -1,6 +1,9 @@
-import { Testimonials } from '@/components/Testimonials';
 import { Projects } from '@/components/Projects';
-import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import { BallCanvas, EarthCanvas } from '.';
+import { StarsCanvas } from '@/components/canvas/StarsCanvas';
+import { Testimonials } from '@/components/Testimonials';
+
+
 import Hero from './Hero';
 
 import About from './About';
@@ -19,6 +22,6 @@ export {
   Contact,
   EarthCanvas,
   BallCanvas,
-  ComputersCanvas,
+  // ComputersCanvas,
   StarsCanvas
 }

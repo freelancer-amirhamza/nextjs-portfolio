@@ -11,6 +11,7 @@
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",
     "framer-motion": "^12.23.24",
+    "init": "^0.1.2",
     "math-random": "^2.0.1",
     "next": "15.5.4",
     "react": "19.1.0",

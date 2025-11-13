@@ -1,12 +1,6 @@
 
-import About from '@/components/About'
-import StarsCanvas from '@/components/canvas/StarsCanvas'
-import Contact from '@/components/Contact'
-import Experience from '@/components/Experience'
-import Hero from '@/components/Hero'
-import Projects from '@/components/Projects'
+import { About, Contact, Experience, Hero, Projects, StarsCanvas, Testimonials } from '@/components'
 
-import Testimonials from '@/components/Testimonials'
 
 const App = () => {
   return (
